@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;  
+}
+
+#main{  
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+
+}
+
+.Shape{
+    margin: 20px;
+    height:200px;
+    width: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#Square:hover{
+    background-color: red;
+}
+
+#Circle:hover{
+    background-color: blue;
+}
+
+#Circle{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+}
+
+#Diamond{
+    margin-top: 60px;
+    rotate: 45deg;
+    /* translate: 10px 10px; */
+    /* It is use to move item on x-axis and y-axis */
+}
+
+#Diamond:hover{
+    background-color: green;
+}
+
+#Diamond h1{
+    rotate: -45deg;
+}
